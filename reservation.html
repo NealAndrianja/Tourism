@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourisme</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+    <script src="scriptForReservation.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <section class="header">
+        <a href="index.html"><img src="logo.png" class="logo" alt="Logo"></a>
+        <form action="discover.html" class="search" id="search-dest">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="data" placeholder="Rechercher une destination"  id="input-desc">
+        </form>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>                
+                <li><a href="discover.html">Découvrir</a></li>
+                <li><a href="reservation.html">Réserver</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+        <div class="option">
+            <i class="fa-solid fa-language"></i>
+            <button class="login">Se connecter</button>
+            <button class="signin">S'inscrire</button>
+        </div>
+    </section>
+
+    <section class="sidenav">
+        <a href="#">Hébergement</a>
+        <a href="">Transport</a>
+        <a href="">Visite guidée</a>
+    </section>
+
+    <div id="res-hotel">
+        <section class="hero-res margin2">
+            <h1>Votre hébergement sur mesure</h1>
+            <form action="">
+                <div class="entry-div">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Entrer une destination">
+                </div>
+                <div class="date-entry">
+                    <div>
+                        <i class="fa-regular fa-calendar"></i>
+                        <input type="text" placeholder="Date d'arrivée" onfocus="this.type='date'" onblur="this.type='text'" name="" id="">
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-calendar"></i>
+                        <input type="text" placeholder="Date de départ" onfocus="this.type='date'" onblur="this.type='text'" name="" id="">
+
+                    </div>
+                </div>
+                <div class="room-entry">
+                    <i class="fa-solid fa-bed"></i>
+                    <input type="number" placeholder="Chambres">
+                </div>
+                <button>Trouver un hébergement</button>
+            </form>
+        </section>
+    </div>
+
+    <div id="res-transport">
+        <section class="hero-res margin2">
+            <h1>Votre déplacement sur mesure</h1>
+            <form action="">
+                <div class="entry-div">
+                    <i class="fa-solid fa-map-pin"></i>
+                    <input type="text" placeholder="Où voulez-vous aller?">
+                </div>
+                <div class="date-entry">
+                    <div>
+                        <i class="fa-regular fa-calendar"></i>
+                        <input type="text" placeholder="Date de début" onfocus="this.type='date'" onblur="this.type='text'" name="" id="">
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-calendar"></i>
+                        <input type="text" placeholder="Date de fin" onfocus="this.type='date'" onblur="this.type='text'" name="" id="">
+
+                    </div>
+                </div>
+                <div class="room-entry">
+                    <i class="fa-solid fa-users-line"></i>
+                    <input type="number" placeholder="Voyageurs">
+                </div>
+                <button>Trouver un transport</button>
+            </form>
+        </section>
+    </div>
+
+    <div id="res-visit">
+        <section class="hero-res margin2">
+            <h1>Votre visite guidée sur mesure</h1>
+            <form action="">
+                <div class="entry-div">
+                    <i class="fa-solid fa-map-pin"></i>
+                    <input type="text" placeholder="Où voulez-vous aller?">
+                </div>
+                <div class="date-entry">
+                    <div>
+                        <i class="fa-regular fa-calendar"></i>
+                        <input type="text" placeholder="Date de visite" onfocus="this.type='date'" onblur="this.type='text'" name="" id="">
+                    </div>
+                    
+                </div>
+                <div class="room-entry">
+                    <i class="fa-solid fa-users-line"></i>
+                    <input type="number" placeholder="Visiteurs">
+                </div>
+                <button>Rechercher des guides</button>
+            </form>
+        </section>
+    </div>
+    <footer class="margin2">
+        <div class="list-option">
+            <ul>
+                <li><a href="">Qui sommes-nous</a></li>
+                <li><a href="">Ressources et politiques</a></li>
+                <li><a href="">Contactez-nous</a></li>
+            </ul>
+            <ul>
+                <li><a href="">écrire un avis</a></li>
+                <li><a href="">Ajouter un lieu</a></li>
+                <li><a href="">Choix des voyageurs</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Articles de voyage</a></li>
+            </ul>
+        </div>
+        <div class="social">
+            <ul>
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="brand">
+            <img src="logo.png" alt="" class="logo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, explicabo.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+</body>
+</html>

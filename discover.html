@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourisme</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+    <script src="scriptForDiscover.js" defer></script>
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+</head>
+<body>
+    <section class="header">
+        <a href="index.html"><img src="logo.png" class="logo" alt="Logo"></a>
+        <form action="discover.html" class="search" id="search-dest">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="data" placeholder="Rechercher une destination"  id="input-desc">
+        </form>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>                
+                <li><a href="discover.html">Découvrir</a></li>
+                <li><a href="reservation.html">Réserver</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+        <div class="option">
+            <i class="fa-solid fa-language"></i>
+            <button class="login">Se connecter</button>
+            <button class="signin">S'inscrire</button>
+        </div>
+    </section>
+
+    <section class="sidenav">
+        <a href="#destination-section">Destination</a>
+        <a href="">Activités</a>
+        <a href="">Nourriture</a>
+    </section>
+
+    <section class="hero-dest margin2" id="hero-dest"></section>
+
+    <section class="country-about margin2">
+        <h2>Détails</h2>
+        <div class="about-container">
+            <ul >
+                <li class="list"><p><b>Capitale: </b></p><p></p></li>
+                <hr>
+                <li class="list"><p><b>Continent: </b></p><p></p></li>
+                <hr>
+                <li class="list"><p><b>code téléphone: </b></p><p></p></li>
+            </ul>
+            <p class="country-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim nobis libero itaque doloremque iste sunt culpa laboriosam facilis vitae voluptate id ab, laborum optio dicta recusandae at fugit numquam magni veniam voluptas omnis debitis saepe.</p>
+        </div>
+    </section>
+
+    <section class="gallery margin2">
+        <h2>Gallerie d'image</h2>
+        <div class="row">
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+        </div>
+        <div class="modal">
+            <span class="close">&times</span>
+            <img src="" alt="" class="modal-content">
+            <div class="caption"></div>
+        </div>
+    </section>
+
+    <section class="destination-section margin2" id="destination-section">
+        <h2>Destinations populaires</h2>
+        <div class="swiper mySwiperDestinations">
+            <div class="swiper-wrapper dest-container" id="dest-swiper">
+              <div class="swiper-slide destination" >
+                <img src="https://images.unsplash.com/photo-1576487248805-cf45f6bcc67f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRvdXJpc218ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="desc">
+                    <h5>Destination 1</h5>
+                    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, facilis!</span>
+                </div>
+              </div>
+              <div class="swiper-slide destination">
+                <img src="https://images.unsplash.com/photo-1576487248805-cf45f6bcc67f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRvdXJpc218ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="desc">
+                    <h5>Destination 1</h5>
+                    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, facilis!</span>
+                </div></div>
+              <div class="swiper-slide destination">
+                <img src="https://images.unsplash.com/photo-1576487248805-cf45f6bcc67f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRvdXJpc218ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="desc">
+                    <h5>Destination 1</h5>
+                    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, facilis!</span>
+                </div></div>
+              <div class="swiper-slide destination">
+                <img src="https://images.unsplash.com/photo-1576487248805-cf45f6bcc67f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRvdXJpc218ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="desc">
+                    <h5>Destination 1</h5>
+                    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, facilis!</span>
+                </div></div>
+              <div class="swiper-slide destination">
+                
+                <img src="https://images.unsplash.com/photo-1576487248805-cf45f6bcc67f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRvdXJpc218ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="desc">
+                    <h5>Destination 1</h5>
+                    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, facilis!</span>
+                </div></div>
+              <div class="swiper-slide destination">
+                <img src="https://images.unsplash.com/photo-1576487248805-cf45f6bcc67f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRvdXJpc218ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="desc">
+                    <h5>Destination 1</h5>
+                    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, facilis!</span>
+                </div></div>
+              <div class="swiper-slide destination">
+                <img src="https://images.unsplash.com/photo-1576487248805-cf45f6bcc67f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRvdXJpc218ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="desc">
+                    <h5>Destination 1</h5>
+                    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, facilis!</span>
+                </div></div>
+              <div class="swiper-slide destination">
+                <img src="https://images.unsplash.com/photo-1576487248805-cf45f6bcc67f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRvdXJpc218ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="desc">
+                    <h5>Destination 1</h5>
+                    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, facilis!</span>
+                </div></div>
+              <div class="swiper-slide destination">
+                <img src="https://images.unsplash.com/photo-1576487248805-cf45f6bcc67f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRvdXJpc218ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="desc">
+                    <h5>Destination 1</h5>
+                    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, facilis!</span>
+                </div></div>
+            </div>
+            <div class="swiper-button-prev" ></div>
+            <div class="swiper-button-next" ></div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </section>
+
+    <section class="topDestination margin2" id="top-dest-disc">
+        <h2>Les meilleures destinations</h2>
+        <p>Les meilleurs choix des voyageurs</p>
+        <div class="dest-container">
+            <div class="destination">
+                <img src="https://images.unsplash.com/photo-1576487248805-cf45f6bcc67f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRvdXJpc218ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="desc">
+                    <h5>Destination 1</h5>
+                    <span>79 commentaires</span>
+                    <button>Détails <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://images.unsplash.com/photo-1493221875746-1203de4f7a56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fHRvdXJpc218ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="desc">
+                    <h5>Destination 2</h5>
+                    <span>53 commentaires</span>
+                    <button>Détails <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://images.unsplash.com/photo-1605834971676-ae92df689820?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fHRvdXJpc218ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="desc">
+                    <h5>Destination 3</h5>
+                    <span>24 commentaires</span>
+                    <button>Détails <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://images.unsplash.com/photo-1500297726361-1715d90aec00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHRvdXJpc218ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="desc">
+                    <h5>Destination 4</h5>
+                    <span>17 commentaires</span>
+                    <button>Détails <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="margin2">
+        <div class="list-option">
+            <ul>
+                <li><a href="">Qui sommes-nous</a></li>
+                <li><a href="">Ressources et politiques</a></li>
+                <li><a href="">Contactez-nous</a></li>
+            </ul>
+            <ul>
+                <li><a href="">écrire un avis</a></li>
+                <li><a href="">Ajouter un lieu</a></li>
+                <li><a href="">Choix des voyageurs</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Articles de voyage</a></li>
+            </ul>
+        </div>
+        <div class="social">
+            <ul>
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="brand">
+            <img src="logo.png" alt="" class="logo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, explicabo.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</body>
+</html>

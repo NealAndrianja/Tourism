@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourisme</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    
+
+</head>
+<body>
+    
+    <section class="header">
+        <a href="index.html"><img src="logo.png" class="logo" alt="Logo"></a>
+        <form action="discover.html" class="search" id="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="input-index" name="data" placeholder="Rechercher une destination">
+            <input type="hidden" name="source" value="index">
+        </form>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>                
+                <li><a href="discover.html">Découvrir</a></li>
+                <li><a href="reservation.html">Réserver</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+        <div class="option">
+            <i class="fa-solid fa-language"></i>
+            <button class="login">Se connecter</button>
+            <button class="signin">S'inscrire</button>
+        </div>
+    </section>
+
+    <section class="hero">
+        <h4>Découvrez le monde</h4>
+        <h1>Voyagez autrement</h1>
+        <p>En quelques clicks, planifiez votre séjour</p>
+        <button class="book">Réservez maintenant</button>
+    </section>
+
+    <section class="topDestination">
+        <h2>Les meilleures destinations</h2>
+        <p>Les meilleurs choix des voyageurs</p>
+        <div class="dest-container">
+            <div class="destination">
+                <img src="https://images.unsplash.com/photo-1576487248805-cf45f6bcc67f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRvdXJpc218ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="desc">
+                    <h5>Destination 1</h5>
+                    <span>79 commentaires</span>
+                    <button>Détails <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://images.unsplash.com/photo-1493221875746-1203de4f7a56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fHRvdXJpc218ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="desc">
+                    <h5>Destination 2</h5>
+                    <span>53 commentaires</span>
+                    <button>Détails <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://images.unsplash.com/photo-1605834971676-ae92df689820?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fHRvdXJpc218ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="desc">
+                    <h5>Destination 3</h5>
+                    <span>24 commentaires</span>
+                    <button>Détails <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://images.unsplash.com/photo-1500297726361-1715d90aec00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHRvdXJpc218ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="desc">
+                    <h5>Destination 4</h5>
+                    <span>17 commentaires</span>
+                    <button>Détails <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="storyHighlight">
+        <h2>Histoires </h2>
+        <p>Faites vous une idée de voyages basée sur l'expériences des autres utilisateurs</p>
+        <div class="swiper mySwiper1">
+            <div class="story-container swiper-wrapper">
+                <div class="slides swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="imgStory">
+                    <div class="desc">
+                        <h2>Allez-y entre amis</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia atque accusamus officiis, debitis voluptatem porro.</p>
+                        <button>Lire</button>
+                    </div>
+                    
+                </div>
+    
+                <div class="slides swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1542037104857-ffbb0b9155fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1508&q=80" alt="imgStory">
+                    <div class="desc">
+                        <h2>Un séjour en famille</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia atque accusamus officiis</p>
+                        <button>Lire</button>
+                    </div>
+                    
+                </div>
+    
+                <div class="slides swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1500301111609-42f1aa6df72a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="imgStory">
+                    <div class="desc">
+                        <h2>Amusez-vous</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button>Lire</button>
+                    </div>
+                    
+                </div>
+
+                <div class="slides swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1491582990992-68ec88e070a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1631&q=80" alt="imgStory">
+                    <div class="desc">
+                        <h2>Des moments à savourer</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button>Lire</button>
+                    </div>
+                    
+                </div>
+    
+            </div>
+            <div class="swiper-button-prev" ></div>
+            <div class="swiper-button-next" ></div>
+        </div>
+        
+    </section>
+
+    <section class="community">
+        <h2>Voyages et témoignages</h2>
+        <div class="witness-container">
+            <div class="witness">
+                <div class="witness-profile">
+                    <div class="image-profile">
+                        <img src="https://images.unsplash.com/photo-1540683512676-41ee1d5883df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG1hbiUyMHByb2ZpbGV8ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="profile img">
+                    </div>                    
+                    <a class="profile-name">Nom Prénom, <i>adresse, Pays</i></a>
+                    <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+                    <p class="profile-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores enim quae et repellat accusamus ad nemo animi earum temporibus officia quam dicta cupiditate exercitationem fugiat doloremque incidunt qui non quis eos, suscipit distinctio quo dignissimos modi. Delectus magnam animi impedit ex consectetur autem iure dolorem qui fuga accusamus quae sit culpa velit ratione molestiae maiores inventore rerum in, alias voluptatum non corporis? Ex cum voluptatum et ad porro necessitatibus vel fugiat sequi, nam debitis quisquam!</p>
+                </div>
+                <div class="swiper mySwiper2">
+                    <div class="witness-story-container swiper-wrapper">
+                        <div class="witness-story swiper-slide">
+                            <img src="https://images.unsplash.com/photo-1591017403286-fd8493524e1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8YmVhY2h8ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="story img">
+                            <h6>Voyage 1</h6>
+                            <div class="likes">
+                                <i class="fa-regular fa-thumbs-up"></i>
+                                <span>128</span>
+                            </div>
+                            <p class="story-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit earum voluptas dolores, possimus rerum quas totam libero hic, doloribus voluptatibus voluptates! Saepe quam non temporibus asperiores perspiciatis, suscipit esse omnis doloribus amet officia numquam voluptate similique nemo, repellendus excepturi qui sequi, atque labore! Atque architecto magnam illo veniam sunt sapiente neque consectetur voluptatem. Itaque est rem porro quasi, libero tempora dolor unde atque nesciunt ullam aperiam rerum adipisci, aspernatur ipsam dolorem, autem iure ducimus aliquam. Nesciunt magni eius dolorem.</p>
+                        </div>
+                        <div class="witness-story swiper-slide">
+                            <img src="https://images.unsplash.com/uploads/141148589884100082977/a816dbd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aGlraW5nfGVufDB8MHwwfHx8Mg%3D%3D&auto=format&fit=crop&w=500&q=60" alt="story img">
+                            <h6>Voyage 2</h6>
+                            <div class="likes">
+                                <i class="fa-regular fa-thumbs-up"></i>
+                                <span>128</span>
+                            </div>
+                            <p class="story-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit earum voluptas dolores, possimus rerum quas totam libero hic, doloribus voluptatibus voluptates! Saepe quam non temporibus asperiores perspiciatis, suscipit esse omnis doloribus amet officia numquam voluptate similique nemo, repellendus excepturi qui sequi, atque labore! Atque architecto magnam illo veniam sunt sapiente neque consectetur voluptatem. Itaque est rem porro quasi, libero tempora dolor unde atque nesciunt ullam aperiam rerum adipisci, aspernatur ipsam dolorem, autem iure ducimus aliquam. Nesciunt magni eius dolorem.</p>
+                        </div>
+                        <div class="witness-story swiper-slide">
+                            <img src="https://images.unsplash.com/photo-1631276893368-554b60393efb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGN5Y2xpbmd8ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="story img">
+                            <h6>Voyage 3</h6>
+                            <div class="likes">
+                                <i class="fa-regular fa-thumbs-up"></i>
+                                <span>128</span>
+                            </div>
+                            <p class="story-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit earum voluptas dolores, possimus rerum quas totam libero hic, doloribus voluptatibus voluptates! Saepe quam non temporibus asperiores perspiciatis, suscipit esse omnis doloribus amet officia numquam voluptate similique nemo, repellendus excepturi qui sequi, atque labore! Atque architecto magnam illo veniam sunt sapiente neque consectetur voluptatem. Itaque est rem porro quasi, libero tempora dolor unde atque nesciunt ullam aperiam rerum adipisci, aspernatur ipsam dolorem, autem iure ducimus aliquam. Nesciunt magni eius dolorem.</p>
+                        </div>
+                        <div class="witness-story swiper-slide">
+                            <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJlc3RhdXJhbnR8ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=500&q=60" alt="story img">
+                            <h6>Voyage 4</h6>
+                            <div class="likes">
+                                <i class="fa-regular fa-thumbs-up"></i>
+                                <span>128</span>
+                            </div>
+                            <p class="story-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit earum voluptas dolores, possimus rerum quas totam libero hic, doloribus voluptatibus voluptates! Saepe quam non temporibus asperiores perspiciatis, suscipit esse omnis doloribus amet officia numquam voluptate similique nemo, repellendus excepturi qui sequi, atque labore! Atque architecto magnam illo veniam sunt sapiente neque consectetur voluptatem. Itaque est rem porro quasi, libero tempora dolor unde atque nesciunt ullam aperiam rerum adipisci, aspernatur ipsam dolorem, autem iure ducimus aliquam. Nesciunt magni eius dolorem.</p>
+                        </div>
+                        <div class="witness-story swiper-slide">
+                            <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG91c2UlMjBleHRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="story img">
+                            <h6>Voyage 5</h6>
+                            <div class="likes">
+                                <i class="fa-regular fa-thumbs-up"></i>
+                                <span>128</span>
+                            </div>
+                            <p class="story-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit earum voluptas dolores, possimus rerum quas totam libero hic, doloribus voluptatibus voluptates! Saepe quam non temporibus asperiores perspiciatis, suscipit esse omnis doloribus amet officia numquam voluptate similique nemo, repellendus excepturi qui sequi, atque labore! Atque architecto magnam illo veniam sunt sapiente neque consectetur voluptatem. Itaque est rem porro quasi, libero tempora dolor unde atque nesciunt ullam aperiam rerum adipisci, aspernatur ipsam dolorem, autem iure ducimus aliquam. Nesciunt magni eius dolorem.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="review">
+        <h2>Votre avis</h2>
+        <div class="review-container">
+            <div class="review-desc">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus nesciunt praesentium, adipisci nisi modi reiciendis. <i>"Magnam animi ex accusantium dolores saepe, voluptas soluta nobis, quidem"</i>, ratione laborum delectus?</p>
+                <button>Déposer un avis</button>
+            </div>
+            <div class="review-img">
+                <img src="https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="review">
+            </div>
+        </div>
+    </section>
+
+    <secion class="newsLetter">
+        <h2>Exploration, Pensées et Inspiration, directement dans Votre Messagerie</h2>
+        <form action="" class="newsLetter-form">
+            <input type="text" placeholder="Adresse couriel">
+            <button>S'inscrire</button>
+        </form>
+    </secion>
+
+    <footer>
+        <div class="list-option">
+            <ul>
+                <li><a href="">Qui sommes-nous</a></li>
+                <li><a href="">Ressources et politiques</a></li>
+                <li><a href="">Contactez-nous</a></li>
+            </ul>
+            <ul>
+                <li><a href="">écrire un avis</a></li>
+                <li><a href="">Ajouter un lieu</a></li>
+                <li><a href="">Choix des voyageurs</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Articles de voyage</a></li>
+            </ul>
+        </div>
+        <div class="social">
+            <ul>
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="brand">
+            <img src="logo.png" alt="" class="logo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, explicabo.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</body>
+</html>
